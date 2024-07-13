@@ -1,0 +1,167 @@
+
+  p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+  }
+ 
+
+  #myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+     border-radius: 15px; 
+    background-color: #696868;
+  }
+/* button{
+    width: 50%;
+    border-radius: 20px;
+    background-color:rgb(255, 0, 0);
+    padding: 10px;
+    transition: .6s;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button:hover{
+    background-color: rgb(170, 0, 0);
+    color: rgb(255, 245, 245);
+    width: 32%; 
+} */
+
+
+.cart li a img{
+    width: 5%;
+}
+
+/* images style */
+.galeri{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    position: inherit;
+    margin-top: auto;
+}
+.galeri>div{
+    flex: 2;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .6s cubic-bezier(.25, .4, .45, 1.4);
+}
+.galeri>div:hover{
+    flex:9;
+}
+.feature>h3{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: .5rem;
+  transition: all .6s;
+}
+.feature>h3:hover{
+  letter-spacing: 1rem;
+  color: red;
+  cursor: pointer;
+  border-bottom: red solid 1px;
+}
+/* button {
+  background-color: #d91c1c;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 3px;
+  cursor: pointer;
+  transition: all .6s;
+}
+button:hover{
+  border: #000000;
+  background-color: #ff0000;
+}
+ */
+
+ .product-container {
+  position: relative;
+}
+
+
+
+footer {
+    border: #5f5858 solid;
+    border-radius: 0.8rem;
+    transition: all .4s;
+    /* padding: auto; */
+}
+footer:hover {
+  border: #ff0505 solid;
+}
+/* card style */
+.conatiner{
+  width: auto;
+  padding:1%;
+}
+.cards{
+  display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(5rem,0.5fr));
+  grid-gap: 0.5rem; 
+}
+.card{
+  background: #958c8c;
+  color: #fff;
+  padding: 0.2rem; 
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+.card-title-large{
+  font-family: fantasy,sans-serif;
+  font-size:medium;
+  letter-spacing:0.1cm; 
+  color: #1d1d1d;
+  transform: translateX(5rem);
+  transition: transform 2.5s;
+}
+.card-title-small{
+  margin-bottom: .5rem;
+}
+.card-description{
+  font-size: small;
+  font-family: cursive;
+  
+}
+.card-cta{
+   display: inline-block; 
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+}
+.card:hover .card-cta{
+  background-color: #f3e5e5;
+}
+.card:hover .card-title-large{
+  transform: translateX(-110%);
+}
+.card.twitter:hover{
+  background-color: #1da1f2;
+}
+.card.instagram:hover{
+  background: radial-gradient(
+    at 20% 128%,
+    #feda78 20%,
+    #e23467 60%,
+    #ac2bb3 90%
+  );
+}
+.card.facebook:hover{
+  background-color: #4267b2;
+}
+.card.youtube:hover{
+  background-color: #ff074f;
+}

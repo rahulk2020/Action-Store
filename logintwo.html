@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Store Login</title>
+    <link rel="icon" href="Action_store_logo-removebg-preview.png">
+    <style>
+*{
+    background-color: rgb(187, 255, 227);
+}
+.name{
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    transition: all .6s;
+}
+.name:hover{
+    letter-spacing: 1rem;
+    color: #ff0101;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.user-button {
+  background-color: #2196F3;
+}
+
+.admin-button {
+  background-color: #f44336;
+}
+.home-button{
+    background-color: #4CAF50;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="name">Action Store</h1>
+        <h1>Welcome to Login Page</h1>
+      <h2>Login Page</h2>
+      <div class="btn-group">
+        <a href="login.php" class="button user-button">User Login</a>
+        <a href="Admin Login Pannel/Admin Login.php" class="button admin-button">Admin Login</a>
+      </div>
+      <a href="index_rk.html" class="button home-button">Home</a>
+    </div>
+  
+
+</body>
+</html>

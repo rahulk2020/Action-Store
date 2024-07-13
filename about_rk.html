@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="Action_store_logo-removebg-preview.png">
+    <!-- <link rel="stylesheet" href="homestyle.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <style>footer {
+        border: #958a8a solid;
+        border-radius: 0.8rem;
+        /* padding: auto; */
+    }
+    /* card style */
+    .conatiner{
+      width: auto;
+      padding:1%;
+    }
+    .cards{
+      display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(5rem,0.5fr));
+      grid-gap: 0.5rem; 
+    }
+    .card{
+      background: #958c8c;
+      color: #fff;
+      padding: 0.2rem; 
+      overflow: hidden;
+      border-radius: 0.8rem;
+    }
+    .card-title-large{
+      font-family: fantasy,sans-serif;
+      font-size:medium;
+      letter-spacing:0.1cm; 
+      color: #1d1d1d;
+      transform: translateX(5rem);
+      transition: transform 2.5s;
+    }
+    .card-title-small{
+      margin-bottom: .5rem;
+    }
+    .card-description{
+      font-size: small;
+      font-family: cursive;
+      
+    }
+    .card-cta{
+       display: inline-block; 
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin-left: auto;
+    }
+    .card:hover .card-cta{
+      background-color: #f3e5e5;
+    }
+    .card:hover .card-title-large{
+      transform: translateX(-110%);
+    }
+    .card.twitter:hover{
+      background-color: #1da1f2;
+    }
+    .card.instagram:hover{
+      background: radial-gradient(
+        at 20% 128%,
+        #feda78 20%,
+        #e23467 60%,
+        #ac2bb3 90%
+      );
+    }
+    .card.facebook:hover{
+      background-color: #4267b2;
+    }
+    .card.youtube:hover{
+      background-color: #ff074f;
+    }</style>
+</head>
+<body class="p-3 m-4 border-20px bd-example">
+    <center><a href="index_rk.html"><button type="button" class="btn btn-outline-danger">Action Store</button></a></center>
+    
+    <br>
+    <center><div>
+        <h2>About Us</h2>
+    </div></center>
+    
+
+<div class="container my-4 ">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              About Us :)
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              About Team :)
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+             About Company :)
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+     <center> <a href="index_rk.html"><button type="button" class="btn btn-outline-primary">Home</button></a></center>
+      <br>
+      <div>
+          <center><footer>
+            <h3>Connect Us</h3>
+  <div class="conatiner">
+    <div class="cards">
+      <div class="card twitter">
+        <h2 class="card-title-large">Twitter</h2>
+        <h3 class="card-title-small">Twitter</h3>
+        <p class="card-description">Let's Connect Thorugh Twitter...</p>
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" class="card-cta">&rarr;</a>
+      </div>
+  
+      <div class="card facebook">
+        <h2 class="card-title-large">Facebook</h2>
+        <h3 class="card-title-small">Facebook</h3>
+        <p class="card-description">Let's Connect Thorugh Facebook...</p>
+        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804791%7Cb%7Cfacebook%20%27%7C&placement=&creative=550525804791&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D1007802%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAjPyfBhBMEiwAB2CCInGZuIjmqttzp2DrtHfU7-MuJ0OEXvTT-5-aayWPDlGk24h6ZhaHpBoCNU8QAvD_BwE" class="card-cta">&rarr;</a>
+      </div>
+  
+      <div class="card instagram">
+        <h2 class="card-title-large">Instagram</h2>
+        <h3 class="card-title-small">Instagram</h3>
+        <p class="card-description">Let's Connect Thorugh Instagram...</p>
+        <a href="https://www.instagram.com/" class="card-cta">&rarr;</a>
+      </div>
+  
+      <div class="card youtube">
+        <h2 class="card-title-large">YouTube</h2>
+        <h3 class="card-title-small">Youtube</h3>
+        <p class="card-description">Let's Connect Thorugh YouTube...</p>
+        <a href="https://www.youtube.com/" class="card-cta">&rarr;</a>
+      </div>
+    </div>
+  </div>
+  <div>
+    <p class="copy">© Copyright 2023 RAHUL KHANNA</p>
+</div>
+
+        </footer></center>
+    </div>  
+</body>
+</html>
